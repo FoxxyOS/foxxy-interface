@@ -1,0 +1,366 @@
+foxxy-interface (4.0+foxxy3) testing; urgency=medium
+
+  * Rebuild package.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Tue, 30 Jan 2018 18:53:49 +0100
+
+foxxy-interface (4.0+foxxy2) testing; urgency=medium
+
+  * Remove old gnome extensions.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Tue, 30 Jan 2018 12:10:20 +0100
+
+foxxy-interface (4.0+foxxy1) testing; urgency=medium
+
+  * Update firefox extensions (ublock origin, noscript, privacy badger).
+  * Improve foxxy-interface-common dependencies.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Mon, 27 Nov 2017 00:06:39 +0100
+
+foxxy-interface (4.0+foxxy0) testing; urgency=medium
+
+  * Rewrite firefox launchers to be sandboxed by firejail.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Sun, 22 Oct 2017 23:00:43 +0200
+
+foxxy-interface (3.19+foxxy1) testing; urgency=medium
+
+  * Minor fix to firefox config.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Sun, 15 Oct 2017 11:58:31 +0200
+
+foxxy-interface (3.19+foxxy0) testing; urgency=medium
+
+  * Allow javascipt globally on firefox.
+  * Add version tag to firefox homepage.
+  * Add xdg-user-dirs dependency.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Sun, 15 Oct 2017 01:29:05 +0200
+
+foxxy-interface (3.18+foxxy1) testing; urgency=medium
+
+  * Update d/*.install
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Mon, 04 Sep 2017 01:00:56 +0200
+
+foxxy-interface (3.18+foxxy0) testing; urgency=medium
+
+  * Add lxkeymap.
+  * Add foxxy keyboard selector popup.
+  * Update foxxy-mate for mate 1.18.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Sun, 03 Sep 2017 13:23:09 +0200
+
+foxxy-interface (3.17+foxxy1) testing; urgency=medium
+
+  * Add mate-calc.
+
+ -- Lisetta "Sheireen" Ferrero <sheireen@foxxysec.org>  Thu, 31 Aug 2017 02:49:54 +0200
+
+foxxy-interface (3.17+foxxy0) testing; urgency=medium
+
+  * Add snapd.
+
+ -- Lisetta "Sheireen" Ferrero <sheireen@autistiche.org>  Wed, 26 Jul 2017 12:58:39 +0200
+
+foxxy-interface (3.16+foxxy2) testing; urgency=medium
+
+  * Remove xul-ext-torbirdy.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Wed, 05 Jul 2017 14:36:38 +0200
+
+foxxy-interface (3.16+foxxy1) testing; urgency=medium
+
+  * Add useful dependencies to foxxy-interface-common.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Tue, 04 Jul 2017 15:30:21 +0200
+
+foxxy-interface (3.16+foxxy0) testing; urgency=medium
+
+  * Add foxxy-updater dependency
+  * Add gdm3 as an alternative display manager for gnome
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Sun, 30 Apr 2017 20:39:24 +0200
+
+foxxy-interface (3.15+foxxy2) testing; urgency=medium
+
+  * Change firefox launcher
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Sun, 05 Mar 2017 21:26:19 +0100
+
+foxxy-interface (3.15+foxxy1) testing; urgency=medium
+
+  * Fix gnome metapackage
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Sat, 04 Mar 2017 10:26:08 +0100
+
+foxxy-interface (3.15+foxxy0) testing; urgency=medium
+
+  * Add missing dependencies
+  * Improve kde,lxde,gnome metapackages
+  * Add xfce again
+  * Improve browser packages
+  * Use sddm for kde and add exception on foxxy-interface-common
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Sat, 04 Mar 2017 02:17:23 +0100
+
+foxxy-interface (3.14+foxxy3) testing; urgency=medium
+
+  * Remove lightbeam as it installs more than 700Mb of useless dependencies (texlive)
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Thu, 02 Mar 2017 14:43:05 +0100
+
+foxxy-interface (3.14+foxxy2) testing; urgency=medium
+
+  * Add onboard virtual keyboard
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Sun, 26 Feb 2017 18:53:18 +0100
+
+foxxy-interface (3.14+foxxy1) testing; urgency=medium
+
+  * Improve metapackages
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Sun, 26 Feb 2017 17:00:10 +0100
+
+foxxy-interface (3.14+foxxy0) testing; urgency=medium
+
+  * Add cinnamon support
+  * Prevent installation of xfce when mate is removed
+  * Pretend to have a beer offered by erg.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Tue, 21 Feb 2017 21:39:28 +0100
+
+foxxy-interface (3.13+foxxy0) testing; urgency=medium
+
+  * Move firefox profiles to foxxy-skel
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Mon, 20 Feb 2017 01:29:46 +0100
+
+foxxy-interface (3.12+foxxy1) testing; urgency=medium
+
+  * Fix firefox profiles
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Sun, 19 Feb 2017 04:45:28 +0100
+
+foxxy-interface (3.12+foxxy0) testing; urgency=medium
+
+  * Remove packages which depend from gtkd
+  * Add firefox-esr in alternative to firefox
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Fri, 17 Feb 2017 19:09:56 +0100
+
+foxxy-interface (3.11+foxxy2) testing; urgency=medium
+
+  * Import changes from git
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Tue, 14 Feb 2017 13:08:13 +0100
+
+foxxy-interface (3.11+foxxy1) testing; urgency=medium
+
+  * Include mate-applets
+
+ -- Lisetta "Sheireen" Ferrero <sheireen@foxxysec.org>  Tue, 14 Feb 2017 13:09:07 +1100
+
+foxxy-interface (3.11+foxxy0) testing; urgency=medium
+
+  * Change firefox homepage
+  * Adjust firefox bookmars
+  * Enable .onion browsing
+  * Clean firefox timestamps in configs
+  * Improve desktop metapackages (adding tasksel tasks)
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Sun, 12 Feb 2017 17:13:18 +0100
+
+foxxy-interface (3.10+foxxy0) testing; urgency=medium
+
+  * Replace firefox-esr with firefox (latest version is better)
+
+ -- Lisetta "Sheireen" Ferrero <sheireen@foxxysec.org>  Wed, 04 Jan 2017 15:03:49 +0300
+
+foxxy-interface (3.10+foxxy0) testing; urgency=medium
+
+  * replace kdm with lightdm-foxxy
+  * add missing mate dependencies
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Sat, 24 Dec 2016 01:01:30 +0100
+
+foxxy-interface (3.9+foxxy6) testing; urgency=medium
+
+  * include mate-applets and mate-sensors-applet
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Wed, 21 Dec 2016 22:59:54 +0100
+
+foxxy-interface (3.9+foxxy5) testing; urgency=medium
+
+  * Remove foxxy-welcome (we need to rewrite it)
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Sun, 18 Dec 2016 19:13:55 +0100
+
+foxxy-interface (3.9+foxxy4) testing; urgency=medium
+
+  * remove mate-desktop environment to save 122MB of disk space
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Sun, 18 Dec 2016 16:13:12 +0100
+
+foxxy-interface (3.9+foxxy3) testing; urgency=medium
+
+  * Remove unusable dependency
+  * add mate-desktop-environment dependency
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Sun, 18 Dec 2016 15:59:21 +0100
+
+foxxy-interface (3.9+foxxy2) testing; urgency=medium
+
+  * Fix wrong xorg dependencies
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Tue, 13 Dec 2016 02:09:57 +0100
+
+foxxy-interface (3.9+foxxy1) testing; urgency=medium
+
+  * Fix trackpad support
+
+ -- Lisetta "Sheireen" Ferrero <sheireen@foxxysec.org>  Sun, 11 Dec 2016 12:14:14 +0300
+
+foxxy-interface (3.9+foxxy0) testing; urgency=medium
+
+  [ Lisetta "Sheireen" Ferrero ]
+  * remove WOT and useless extensions
+  * minor fixes 
+
+  [ Lorenzo "Palinuro" Faletra ]
+  * Modifyt pakage to use the gbp tool
+
+ -- Lisetta "Sheireen" Ferrero <sheireen@foxxysec.org>  Mon, 04 Dec 2016 22:51:32 +0300
+
+foxxy-interface (3.8+foxxy2) testing; urgency=medium
+
+  * Add breeze-cursor-theme to foxxy-mate
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Fri, 14 Oct 2016 02:01:53 +0200
+
+foxxy-interface (3.8+foxxy0) testing; urgency=medium
+
+  * rmove gimp and kdevelop from foxxy-interface-full
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Sun, 04 Sep 2016 11:11:21 +0200
+
+foxxy-interface (3.7+foxxy2) testing; urgency=medium
+
+  [ Lisetta "Sheireen" Ferrero ]
+  * Remove torbrowser and vidalia (to be added to foxxy-anon)
+  * Remove foxxy-conky
+
+  [ Lorenzo "Palinuro" Faletra ]
+  * Add new improved firefox profile
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Mon, 25 Jul 2016 00:23:48 +0200
+
+foxxy-interface (3.7+foxxy0) testing; urgency=medium
+
+  * Include torbrowser and vidalia
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Fri, 22 Jul 2016 18:49:51 +0200
+
+foxxy-interface (3.6+foxxy0) testing; urgency=medium
+
+  * Remove custom noscript bundle
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@foxxysec.org>  Sun, 10 Jul 2016 15:08:35 +0200
+
+foxxy-interface (3.5+foxxy0) testing; urgency=medium
+
+  * Fix firefox profile
+
+ -- Lorenzo "Palinuro" Faletra <eclipse@foxxysec.org>  Tue, 21 Jun 2016 18:51:06 +0200
+
+foxxy-interface (3.4+foxxy0) testing; urgency=medium
+
+  * Make foxxy-interface-full more lightweight
+
+ -- Lorenzo "Palinuro" Faletra <eclipse@foxxysec.org>  Fri, 17 Jun 2016 12:19:52 +0200
+
+foxxy-interface (3.3+foxxy3) testing; urgency=medium
+
+  * Refine dependencies for gtk3
+
+ -- Lisetta "Sheireen" Ferrero <sheireen@autistiche.org>  Sun, 05 Jun 2016 01:45:01 +0400
+
+foxxy-interface (3.3+foxxy2) testing; urgency=medium
+
+  * Remove useless files now moved to foxxy-core
+
+ -- Lorenzo "Palinuro" Faletra <eclipse@foxxysec.org>  Tue, 24 May 2016 01:07:01 +0200
+
+foxxy-interface (3.3+foxxy1) testing; urgency=medium
+
+  * Replace Code::Blocks with KDevelop
+
+ -- Lorenzo "Palinuro" Faletra <eclipse@foxxysec.org>  Fri, 20 May 2016 23:10:14 +0200
+
+foxxy-interface (3.3+foxxy0) testing; urgency=medium
+
+  * package tested, changing version
+
+ -- Lorenzo "Palinuro" Faletra <eclipse@foxxysec.org>  Wed, 18 May 2016 09:22:03 +0200
+
+foxxy-interface (3.2+foxxy6) testing; urgency=medium
+
+  * Add postinst
+
+ -- Lorenzo "Palinuro" Faletra <eclipse@foxxysec.org>  Wed, 18 May 2016 09:13:08 +0200
+
+foxxy-interface (3.2+foxxy5) testing; urgency=medium
+
+  * Final fix to postgresql (permission has to be set to 775)
+
+ -- Lorenzo "Palinuro" Faletra <eclipse@foxxysec.org>  Wed, 18 May 2016 08:52:56 +0200
+
+foxxy-interface (3.2+foxxy4) testing; urgency=medium
+
+  * Minor fixes
+
+ -- Lorenzo "Palinuro" Faletra <eclipse@foxxysec.org>  Wed, 18 May 2016 01:10:44 +0200
+
+foxxy-interface (3.2+foxxy3) testing; urgency=medium
+
+  * Fix firefox-esr conflicts
+
+ -- Lorenzo "Palinuro" Faletra <eclipse@foxxysec.org>  Wed, 18 May 2016 01:05:17 +0200
+
+foxxy-interface (3.2+foxxy1) testing; urgency=medium
+
+  * Go home iceweasel-frozenmod
+
+ -- Lorenzo "Palinuro" Faletra <eclipse@foxxysec.org>  Wed, 18 May 2016 00:35:08 +0200
+
+foxxy-interface (3.2+foxxy0) testing; urgency=high
+
+  * Fix postgresql startup bug
+
+ -- Lorenzo "Palinuro" Faletra <eclipse@foxxysec.org>  Tue, 17 May 2016 23:48:47 +0200
+
+foxxy-interface (3.1+foxxy2) testing; urgency=medium
+
+  * geany needs to be there!
+
+ -- Lorenzo "Palinuro" Faletra <eclipse@frozenbox.org>  Mon, 18 Apr 2016 01:18:45 +0200
+
+foxxy-interface (3.1+foxxy1) testing; urgency=medium
+
+  * Fix architecture generation.
+
+ -- Lorenzo "Palinuro" Faletra <eclipse@frozenbox.org>  Mon, 18 Apr 2016 00:24:05 +0200
+
+foxxy-interface (3.1+foxxy0) testing; urgency=medium
+
+  * Include all the packages related to interface selection.
+
+ -- Lisetta "Sheireen" Ferrero <sheireen@frozenbox.org>  Sun, 17 Apr 2016 23:12:40 +0400
+
+foxxy-welcome (3.0) testing; urgency=high
+
+  * Update for Foxxy 3
+  * Debianized package source
+  * Import from previous source style
+
+ -- Lisetta "Sheireen" Ferrero <sheireen@frozenbox.org>  Sat, 09 Apr 2016 16:57:01 +0400
